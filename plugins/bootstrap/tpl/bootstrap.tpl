@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body style="padding:20px; margin-bottom:30px;">
 
 <!-- IF {PHP.cfg.bootstrap} -->
 <h3>{PHP.L.bsw_testpage}</h3>
