@@ -45,7 +45,8 @@ $L['cfg_use_minified'] =array('Use minified versions of files','');
 $L['cfg_load_theme'] =array('Load default «theme» file','bootstrap-theme.css');
 
 $L['bsw_debuginfo'] = '<b>Note!</b> We use uncompressed (unminified) version of Bootstrap files while <code>DEBUG_MODE</code> is <code>ON</code> inspite of config settings.';
+$L['bsw_file_loaded'] = 'File <b>{$file}</b> exists and loaded.';
+$L['bsw_not_found'] = 'File <b>{$file}</b> not found, check file paths in plugin settings.';
 
-// $L[$extrafield['field_name'] . '_' . $var  пример $L['extrafieldname_1']
 
 $adminhelp1 = '';
