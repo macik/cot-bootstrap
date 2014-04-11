@@ -6,7 +6,7 @@ Name=Bootstrap wrapper
 Category=development-maintenance
 Description=Bootstrap framework wrapper plugin
 Version=3.1.0
-Date=2014-Feb-04
+Date=2014-Apr-04
 Author=Andrey Matsovkin
 Copyright=Copyright (c) 2011-2014, Andrey Matsovkin
 Notes=If your enjoy my plugin please consider donating to help support future developments. <b>Thanks!</b> <br /><a href="mailto:macik.spb@gmail.com">macik.spb@gmail.com</a>

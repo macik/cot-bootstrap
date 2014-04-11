@@ -79,11 +79,16 @@
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td><code>$cfg['bootstrap']</code></td>
+				<td><code class="text-info">&#123;PHP.cfg.bootstrap&#125;</code></td>
+				<td>{PHP.cfg.bootstrap}</td>
+			</tr>
 			<!-- BEGIN: VAR -->
 			<tr>
 				<td><code>$cot_bootstrap['{var}']</code></td>
 				<td><code class="text-info">&#123;PHP.cot_bootstrap.{var}&#125;</code></td>
-				<td>{value}</td>
+				<td><!-- IF {value} -->{value}<!-- ELSE -->[{PHP.L.bsw_notdefined}]<!-- ENDIF --></td>
 			</tr>
 			<!-- END: VAR -->
 		</tbody>
@@ -108,8 +113,8 @@
 </p>
 <p>{PHP.L.bsw_tpl_files}:
 <pre>
-	&lt;link rel="canonical" href="{PHP.cot_bootstrap.css_file}" /&gt;
-	&lt;script src="{PHP.cot_bootstrap.js_file}"&gt;&lt;/script&gt;
+	&lt;link rel="canonical" href="{PHP.cot_bootstrap.css_file&thinsp;}?{PHP.cfg.bootstrap&thinsp;}" /&gt;
+	&lt;script src="{PHP.cot_bootstrap.js_file&thinsp;}?{PHP.cfg.bootstrap&thinsp;}"&gt;&lt;/script&gt;
 </pre>
 
 </p>

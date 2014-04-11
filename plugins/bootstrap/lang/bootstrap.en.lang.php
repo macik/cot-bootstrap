@@ -34,6 +34,7 @@ $L['bsw_tpl_files'] = 'Direct in theme header file <code>theme.header.php</code>
 $L['bsw_comment1'] = 'check Bootstrap wrapper is installed and had appropriate version';
 $L['bsw_comment2'] = 'Fallback for Bootstrap wrapper not installed or had old version';
 $L['bsw_comment3'] = 'Just loads files from some CDN (Yandex for example)';
+$L['bsw_notdefined'] = 'Not defined. Check plugin settings';
 
 $L['cfg_autoload'] =array('Automatically loads on all pages','Use this mode only if all of your site pages uses Bootstrap (including common site and admin pages). In other case let system decide whenever it needed.');
 $L['cfg_load_mode'] =array('Bootstrap load source','loads it locally from your site of from CDN');
