@@ -19,8 +19,14 @@ defined('COT_CODE') or die('Wrong URL.');
 $plug_name = 'bootstrap';
 $pl_cfg = $cfg['plugin'][$plug_name];
 
-global $cot_bootstrap;
-$base_CDN 	= trim($pl_cfg['path_to_cdn']) 		? trim($pl_cfg['path_to_cdn']) 		: "//netdna.bootstrapcdn.com/bootstrap/{$cfg['bootstrap']}/";
+global $cot_bootstrap,$bootstrap_def_cdn;
+switch ($usr['lang']) {
+	case 'ru': $bootstrap_def_cdn = "//yandex.st/bootstrap/{$cfg['bootstrap']}/";
+		break;
+	default:
+		$bootstrap_def_cdn = "//netdna.bootstrapcdn.com/bootstrap/{$cfg['bootstrap']}/";
+}
+$base_CDN 	= trim($pl_cfg['path_to_cdn']) 		? trim($pl_cfg['path_to_cdn']) : $bootstrap_def_cdn;
 $base_local = trim($pl_cfg['path_to_local']) 	? trim($pl_cfg['path_to_local']) 	: $cfg['plugins_dir'].'/bootstrap/lib/';
 
 $min 			= ($pl_cfg['use_minified'] && !$cfg['debug_mode']) ? '.min'	: '';

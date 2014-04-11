@@ -106,8 +106,8 @@
 	} else {
 		// {PHP.L.bsw_comment2}
 		// {PHP.L.bsw_comment3}
-		cot_rc_add_file('http://yandex.st/bootstrap/3.0.3/js/bootstrap.min.css');
-		cot_rc_link_footer('http://yandex.st/bootstrap/3.0.3/js/bootstrap.min.js');
+		cot_rc_add_file('{PHP.cot_bootstrap.base_path}js/bootstrap.min.css');
+		cot_rc_link_footer('{PHP.cot_bootstrap.base_path}js/bootstrap.min.js');
 	}
 </pre>
 </p>

@@ -33,7 +33,7 @@ $bs_var = array(
 	'cdn',
 	'filename'
 );
-$pl_cfg = $cfg['plugin'][$plug_name];
+$pl_cfg = $cfg['plugin']['bootstrap'];
 
 foreach ($bs_var as $key => $var)
 {

@@ -40,7 +40,7 @@ $L['cfg_autoload'] =array('Automatically loads on all pages','Use this mode only
 $L['cfg_load_mode'] =array('Bootstrap load source','loads it locally from your site of from CDN');
 $L['cfg_load_mode_params'] = array('Local files','Files on CDN');
 $L['cfg_path_to_local'] =array('Path to local files','by default (or if not specified) system uses this path: '.$cfg['plugins_dir'].'/bootstrap/lib/');
-$L['cfg_path_to_cdn'] =array('Path to CDN files','by default (or if not specified) system uses this path: '."//netdna.bootstrapcdn.com/bootstrap/{$cfg['bootstrap']}/");
+$L['cfg_path_to_cdn'] =array('Path to CDN files','by default (or if not specified) system uses this path: '.$bootstrap_def_cdn.' (depends on user language selection)');
 $L['cfg_use_minified'] =array('Use minified versions of files','');
 
 $L['cfg_load_theme'] =array('Load default «theme» file','bootstrap-theme.css');

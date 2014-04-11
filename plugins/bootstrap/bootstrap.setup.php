@@ -5,8 +5,8 @@ Code=bootstrap
 Name=Bootstrap wrapper
 Category=development-maintenance
 Description=Bootstrap framework wrapper plugin
-Version=3.1.0
-Date=2014-Apr-04
+Version=3.1.1
+Date=2014-Apr-10
 Author=Andrey Matsovkin
 Copyright=Copyright (c) 2011-2014, Andrey Matsovkin
 Notes=If your enjoy my plugin please consider donating to help support future developments. <b>Thanks!</b> <br /><a href="mailto:macik.spb@gmail.com">macik.spb@gmail.com</a>
@@ -24,7 +24,7 @@ Requires_plugins=
 autoload=01:radio:0,1:0:Autoload on all pages
 load_mode=02:select:0,1:0:Bootstrap loading mode
 path_to_local=03:string:::Path to local files
-path_to_cdn=05:string:://netdna.bootstrapcdn.com/bootstrap/3.1.0/:Path to CDN files
+path_to_cdn=05:string:::Path to CDN files
 use_minified=07:radio:0,1:1:Use minified files
 load_theme=09:radio:0,1:0:Load default theme file
 [END_COT_EXT_CONFIG]
